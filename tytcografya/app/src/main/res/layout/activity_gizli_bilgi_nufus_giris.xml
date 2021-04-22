@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".gizliBilgiNufusGiris">
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView326"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView328"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Gizli Oda"
+                android:textColor="@color/mavi"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView537"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView329"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nüfus miktarına göre Türkiye"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Marmara"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) İç Anadolu"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3)Ege"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView331"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aritmetik Nüfus Yoğunluğuna Göre Türkiye"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Marmara"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Güney Doğu Anadolu"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3) Ege"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4) İç Anadolu"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5) Akdeniz"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView618"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6) Karadeniz"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7) Doğu Anadolu"
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güney Doğu Anadolu Bölgesinde GAP ile olan değişmeler?"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="=) Nüfus artmıştır.Göç verme azalmıştır."
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="=) Sebze ve meyve üretimi artmıştır."
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="=) Tarıma bağlı sanayi gelşmiştir."
+                android:textColor="@color/ders" />
+
+            <TextView
+                android:id="@+id/textView609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/anaSayfa"
+                android:layout_width="161dp"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:background="@color/mavi"
+                android:text="Ana Sayfaya Dön"
+                android:textColor="@color/beyaz" />
+
+
+            <TextView
+                android:id="@+id/textView623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/4128942386"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

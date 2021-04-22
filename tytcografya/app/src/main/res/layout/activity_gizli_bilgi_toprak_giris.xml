@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".gizliBilgiToprakGiris">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView326"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView328"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gizli Oda"
+            android:textColor="@color/mavi"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView537"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView329"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alüvyal Topraklar"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView330"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bu materyaller iriliğine göre; çakıl, kum, mil olarak adlandırılır. Bunların hepsine birden alüvyon denir."
+            android:textColor="@color/ders" />
+
+        <TextView
+            android:id="@+id/textView331"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView332"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lös Topraklar"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Çöllerde ve yarı kurak iklimlerde rüzgârların, bitki örtüsünün cılız olduğu yüzeylerden kayaçları kopararak taşıdığı ve biriktirdiği topraklardır."
+            android:textColor="@color/ders" />
+
+        <TextView
+            android:id="@+id/textView334"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView335"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moren"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView336"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kutup bölgelerinde ve kalıcı kar sınırları çevresinde buzulların getirdiği materyallerin biriktirilmesi ile oluşan topraklardır."
+            android:textColor="@color/ders" />
+
+        <TextView
+            android:id="@+id/textView337"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView607"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regosoller"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView611"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dağ eteklerinde biriken kum boyutundaki malzemeler ile akarsuların ve volkanlardan çıkan kum boyutundaki malzemeler üzerinde gelişen verimli topraklardır. "
+            android:textColor="@color/ders" />
+
+        <TextView
+            android:id="@+id/textView609"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView654"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kolüvyal Topraklar (Yamaç Döküntüleri)"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView655"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dağların yamaçlarında, çözülen malzemelerin yağmur ve sel suları tarafından taşınarak dağ eteklerinde biriktirilmesi ile oluşur"
+            android:textColor="@color/ders" />
+
+        <TextView
+            android:id="@+id/textView661"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView656"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Litosol Topraklar (Taşlı Topraklar)"
+            android:textColor="@color/beyaz" />
+
+        <TextView
+            android:id="@+id/textView657"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Litos, taş, litosol taşlı toprak demektir. Dağların eğimli yamaçlarında aşınma devamlı olursa ince malzemeler sürekli taşındığından geriye sadece taş ve çakıl gibi iri malzemeler kalır ve bu iri malzemenin hâkim olduğu taşlı topraklara litosol denir."
+            android:textColor="@color/ders" />
+
+        <TextView
+            android:id="@+id/textView662"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/beyaz" />
+
+        <Button
+            android:id="@+id/anaSayfa"
+            android:layout_width="138dp"
+            android:layout_height="36dp"
+            android:layout_gravity="right"
+            android:background="@color/mavi"
+            android:text="Ana Sayfaya Dön"
+            android:textColor="@color/beyaz" />
+
+
+        <TextView
+            android:id="@+id/textView623"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6537190103014639/4128942386"></com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

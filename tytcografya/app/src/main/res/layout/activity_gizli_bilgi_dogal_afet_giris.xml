@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".gizliBilgiDogalAfetGiris">
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView326"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView328"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Gizli Oda"
+                android:textColor="@color/mavi"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView537"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView329"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afetler, kökenine bağlı olarak iki farklı grupta incelenirler."
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView680"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView673"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1=)"
+                android:textColor="#00BCD4" />
+
+            <TextView
+                android:id="@+id/textView330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beşeri afetler"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView675"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView674"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2=)"
+                android:textColor="#00BCD4" />
+
+            <TextView
+                android:id="@+id/textView626"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğal afetler "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView331"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meteorolojik afetler"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Sel"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView639"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Aşırı kar "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Çığ düşmesi "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView641"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Don olayları "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView642"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Fırtına "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView643"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Tipi"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Yıldırım düşmesi "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView645"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Dolu yağması"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView646"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Sis"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView647"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Kuraklık"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView648"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> Orman yangını  VB."
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğal afetler, kendi aralarında iki grup altında incelenir."
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView679"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView676"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1=)"
+                android:textColor="#00BCD4" />
+
+            <TextView
+                android:id="@+id/textView336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jeolojik kökenli afetler"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView678"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView677"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2=)"
+                android:textColor="#00BCD4" />
+
+            <TextView
+                android:id="@+id/textView649"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meteorolojik kökenli afetler. "
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView337"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView607"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jeolojik kökenli en çok görülen afetler"
+                android:textColor="@color/beyaz" />
+
+            <TextView
+                android:id="@+id/textView611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deprem"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView650"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heyelan"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView651"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaya düşmesi"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView652"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çamur seli"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/anaSayfa"
+                android:layout_width="160dp"
+                android:layout_height="38dp"
+                android:layout_gravity="right"
+                android:background="@color/mavi"
+                android:text="Ana Sayfaya Dön"
+                android:textColor="@color/beyaz" />
+
+
+            <TextView
+                android:id="@+id/textView623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6537190103014639/4128942386"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

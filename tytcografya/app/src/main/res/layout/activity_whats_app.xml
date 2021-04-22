@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".whatsApp">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grupta Ne Yapıyoruz;"
+                android:textColor="@color/pembeee" />
+
+            <TextView
+                android:id="@+id/textView273"
+                android:layout_width="140dp"
+                android:layout_height="2dp"
+                android:background="@color/pembeee"
+                android:textColor="@color/beyaz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView282"
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:background="@color/mavi" />
+
+            <TextView
+                android:id="@+id/textView284"
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muhabbet ediyoruz dertleşiyioruz :)"
+                android:textColor="@color/kronometre" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not paylaşımı yapıyoruz (Tüm Dersler),"
+                android:textColor="@color/kronometre" />
+
+            <TextView
+                android:id="@+id/textView274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çözemediğimiz soruları paylaşıyoruz (Tüm Dersler),"
+                android:textColor="@color/kronometre" />
+
+            <TextView
+                android:id="@+id/textView278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeni yeni güzel insanlarla tanışıyoruz,"
+                android:textColor="@color/kronometre" />
+
+            <TextView
+                android:id="@+id/textView279"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView286"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekiliş Düzenliyoruz,"
+                android:textColor="@color/kronometre" />
+
+            <TextView
+                android:id="@+id/textView277"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biz çok eğleniyoruz seni de bekliyoruz. "
+                android:textColor="@color/kronometre" />
+
+            <TextView
+                android:id="@+id/textView283"
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/textView281"
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:layout_gravity="right"
+                android:background="@color/mavi"
+                android:foregroundGravity="right"
+                android:gravity="right" />
+
+            <TextView
+                android:id="@+id/textView280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView276"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/what3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp grubumuza katılmak için tıklayınız >"
+                android:textColor="@color/mavi" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

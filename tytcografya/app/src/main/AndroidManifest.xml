@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tytcografya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cobicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/coicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.kotuzapp.tytcografya.haberr"></activity>
+        <activity android:name="com.kotuzapp.tytcografya.kronometree" />
+        <activity android:name="com.kotuzapp.tytcografya.kisaNotlarActivity" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiUlasimGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiUlasim" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiIcGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiIc" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiIklimGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiIklim" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiToprakGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiToprak" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiCevreGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiCevre" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiDogalAfetGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiDogalAfet" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiNufusGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiNufus" />
+        <activity android:name="com.kotuzapp.tytcografya.webSite" />
+        <activity android:name="com.kotuzapp.tytcografya.benKimim" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiDunyaGiris" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiDunya" />
+        <activity android:name="com.kotuzapp.tytcografya.gizliBilgiHaritaGiris" />
+        <activity android:name=".gizliBilgiHarita" />
+        <activity android:name="com.kotuzapp.tytcografya.whatsApp" />
+        <activity android:name="com.kotuzapp.tytcografya.motivasyonBirr" />
+        <activity android:name="com.kotuzapp.tytcografya.reklam" />
+        <activity android:name="com.kotuzapp.tytcografya.ulasimSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.icVeDisKuvvetlerSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.toprakTipleriSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.cevreSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.dogalAfetSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.nufusSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.dunyaninSekliSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.beta" />
+        <activity android:name="com.kotuzapp.tytcografya.haritaSozlu" />
+        <activity android:name="com.kotuzapp.tytcografya.telegramm" />
+        <activity android:name=".ayarlar" />
+        <activity android:name=".kardesKanal" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".bizeYazin" />
+        <activity android:name=".ulasimm" />
+        <activity android:name=".cevreVeInsan" />
+        <activity android:name=".nufus" />
+        <activity android:name=".Iklim" />
+        <activity android:name=".toprakTipleri" />
+        <activity android:name=".icVeDisActivity" />
+        <activity android:name=".dogalAfett" />
+        <activity android:name=".dunyaninSekli" />
+        <activity android:name=".haritaBilgisi" />
+        <activity android:name=".cografyaAnaSayfa" />
+        <activity android:name=".animasyon">
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-6537190103014639~1020397464" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
